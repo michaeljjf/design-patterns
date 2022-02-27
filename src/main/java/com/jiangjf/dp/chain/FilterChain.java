@@ -1,6 +1,6 @@
 package com.jiangjf.dp.chain;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -8,7 +8,7 @@ import java.util.List;
  * @date 2022/2/19
  */
 public class FilterChain {
-    List<Filter> filters = new ArrayList<>();
+    List<Filter> filters = new LinkedList<>();
 
     public FilterChain add(Filter filter) {
         filters.add(filter);
