@@ -6,7 +6,8 @@ package com.jiangjf.dp.iterator;
  */
 public class Main {
     public static void main(String[] args) {
-        MyCollection<String> myCollection = new MyArrayList<>();
+//        MyCollection<String> myCollection = new MyArrayList<>();
+        MyCollection<String> myCollection = new MyLinkedList<>();
         for (int i = 0; i < 15; i++) {
             myCollection.add("str" + i);
         }
