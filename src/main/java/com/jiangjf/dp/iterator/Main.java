@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 //        MyCollection<String> myCollection = new MyArrayList<>();
         MyCollection<String> myCollection = new MyLinkedList<>();
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 2; i++) {
             myCollection.add("str" + i);
         }
         System.out.println(myCollection.size());

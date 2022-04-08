@@ -21,9 +21,9 @@ public class MyLinkedList<E> implements MyCollection<E> {
         n.next = null;
         if (head == null) {
             head = n;
-            tail = n;
+        } else {
+            tail.next = n;
         }
-        tail.next = n;
         tail = n;
         size++;
     }
